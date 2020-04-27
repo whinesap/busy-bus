@@ -54,17 +54,15 @@ table {
 	box-sizing: border-box;
 }
 
-body {
+body {	
 	display: flex;
-	position: relative;
 	flex-direction: column;
 	margin: auto;
-	width:375px;
+	width: 375px;
+	height: 100%;
 	border-left: 1px solid #64AF9B;
 	border-right: 1px solid #64AF9B;
 	border-bottom: 1px solid #64AF9B;
-	align-items: center;
-	margin-bottom: 20px;
 }
 
 header {
@@ -72,7 +70,6 @@ header {
 	height: 58px;
 	background-color: #64AF9B;
 	align-content: center;
-	text-align: center;
 }
 
 header img {
@@ -83,14 +80,16 @@ header img {
 section {
 	width: 375px;
 	margin-bottom: 20px;
-	padding-left: 35px;
 }
 
 .title {
-	flex-direction: row;
 	width: 375px;
-	margin-top: 22px;
+	padding-top: 25px;
+	
 	margin-bottom: 20px;
+	padding-left: 25px;
+	float: left;
+
 }
 
 h2 {
@@ -106,23 +105,35 @@ h2 {
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 600;
-	display: inline;
+
 }
 
-.subtitle {
-	display: inline-grid;
-	column-gap: 20px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid rgb(167, 167, 167);
-	justify-items: start;
+
+
+.line {
+	float: left;
+	width: 10%;
+	margin-right: 10px;
+	margin-left: 22px;
 }
 
+.destination {
+	float: left;
+	width: 41%;
+	margin-right: 5px;
+	
+}
+
+.frequency {
+	float: left;
+	width: 35%;
+}
 
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
-	display: inline;
+	
 }
