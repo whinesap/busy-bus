@@ -55,42 +55,59 @@ table {
 }
 
 body {	
-	display: flex;
-	flex-direction: column;
 	margin: auto;
 	width: 375px;
-	height: 100%;
+	height: 600px;
 	border-left: 1px solid #64AF9B;
 	border-right: 1px solid #64AF9B;
 	border-bottom: 1px solid #64AF9B;
 }
 
-header {
+#nav {
 	width: 375px;
-	height: 58px;
+	height: 55px;
 	background-color: #64AF9B;
-	align-content: center;
+	text-align: center;
+	display: flex;
+	justify-content: center; 
 }
 
-header img {
-	width: 375px;
-	height: 58px;
+#nav img {
+	padding: 8px;
+	max-width: 100%;
 }
 
-section {
-	width: 375px;
-	margin-bottom: 20px;
+h1 {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 2em;
+	color: #F7FCED;
+	margin-top: 14px;
+	margin-left: 50px;
+	margin-right: 50px;
+	max-width: 40%;
 }
 
-.title {
-	width: 375px;
-	padding-top: 25px;
+.map {
+	width: 373px;
+	height: 400px;
+	border: 1px solid #64AF9B;
+}
+
+.map img {
+	width: 373px;
+}
+
+/***.map {
+	background-image: url(../busy-bus/map.png);
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 420px;
+	border-bottom: solid 2px #64AF9B;
 	
-	margin-bottom: 20px;
-	padding-left: 25px;
-	float: left;
+} ***/
 
-}
 
 h2 {
 	font-family: 'Cuprum', sans-serif;
@@ -107,33 +124,29 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
+	float: left;
 
 }
 
-
+section {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 
 .line {
 	float: left;
-	width: 10%;
+	width: 55%;
 	margin-right: 10px;
-	margin-left: 22px;
+	margin-left: 20px;
 }
 
-.destination {
-	float: left;
-	width: 41%;
-	margin-right: 5px;
-	
+.time {
+	float: right;
+	width: 30%;
+	margin-right: 20px;
 }
 
-.frequency {
-	float: left;
-	width: 35%;
-}
-
-p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	
+.time img {
+	width: 20px;
+	margin-left: 10px;
 }
