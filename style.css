@@ -54,27 +54,36 @@ table {
 	box-sizing: border-box;
 }
 
-body {	
-	margin: auto;
-	width: 375px;
-	height: 600px;
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 375px;
+	height: 667px;
+	padding-bottom: 10px;
 	border-left: 1px solid #64AF9B;
 	border-right: 1px solid #64AF9B;
 	border-bottom: 1px solid #64AF9B;
+	text-align: center;
+}
+
+#status img {
+	width: 375px;
 }
 
 #nav {
 	width: 375px;
-	height: 55px;
+	height: 65px;
 	background-color: #64AF9B;
-	text-align: center;
+	align-content: center;
 	display: flex;
-	justify-content: center; 
+	justify-content: center;
 }
 
 #nav img {
-	padding: 8px;
-	max-width: 100%;
+	margin: 8px;
+	max-width: 40px;
+	max-height: 40px;
+	margin-top: 12px;
 }
 
 h1 {
@@ -82,71 +91,71 @@ h1 {
 	font-size: 2em;
 	color: #F7FCED;
 	margin-top: 14px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 60px;
+	margin-right: 60px;
 	max-width: 40%;
 }
 
 .map {
-	width: 373px;
-	height: 400px;
+	width: 375px;
+	height: 340px;
 	border: 1px solid #64AF9B;
-}
-
-.map img {
-	width: 373px;
-}
-
-/***.map {
 	background-image: url(../busy-bus/map.png);
 	background-position-x: center;
 	background-position-y: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 420px;
-	border-bottom: solid 2px #64AF9B;
-	
-} ***/
+
+}
 
 
 h2 {
 	font-family: 'Cuprum', sans-serif;
-  }
-
-
-h2 {
 	font-size: 25px;
 	font-weight: 700;
-	
+	color: #F7FCED;
+	align-content: center;
 }
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 	float: left;
+	color: #3B413C
 
 }
 
+.select {
+	height: 60px;
+	padding-top: 18px;
+	padding-bottom: 10px;
+	background-color: #64AF9B;
+}
+
 section {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+
 }
 
 .line {
 	float: left;
-	width: 55%;
+	width: 56%;
 	margin-right: 10px;
-	margin-left: 20px;
+	margin-left: 15px;
+	text-align: left;
 }
 
 .time {
 	float: right;
-	width: 30%;
-	margin-right: 20px;
+	width: 31%;
+	margin-right: 15px;
+	display: flex;
+	justify-content: left;
 }
 
 .time img {
-	width: 20px;
-	margin-left: 10px;
+	width: 18px;
+	margin-right: 8px;
 }
